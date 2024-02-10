@@ -1,0 +1,38 @@
+
+h1 {
+    display: inline-block;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.principal {
+    text-align: center; /* Optional: Center text inside the div */
+    padding: 20px; /* Optional: Add padding to the div */
+    border: 1px solid #ccc;
+}
+.carousel-item img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#video-background {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video stays behind other content */
+}
+.all{
+    z-index: 1;
+}
